@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 50px;
+}
+
+.one{
+    background-color: crimson;
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.two{
+    background-color: cadetblue;
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+.three{
+    background-color: coral;
+    grid-column: 1;
+    grid-row: 2/5;
+}
+
+.four{
+    background-color: darksalmon;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.five{
+    background-color: teal;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.six{
+    background-color: thistle;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+
